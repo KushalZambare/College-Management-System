@@ -8,7 +8,7 @@ class Student implements Serializable {
     private String email;
     private Date enrollmentDate;
     private Set<String> enrolledCourses;
-    private Map<String, Double> grades; // courseId -> grade
+    private Map<String, Double> grades; 
     
     public Student(String studentId, String firstName, String lastName, String email) {
         this.studentId = studentId;
@@ -65,4 +65,5 @@ class Student implements Serializable {
         return String.format("Student ID: %s | Name: %s | Email: %s | GPA: %.2f", 
                            studentId, getFullName(), email, calculateGPA());
     }
+
 }
