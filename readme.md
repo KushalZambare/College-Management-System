@@ -67,7 +67,7 @@ java CCRMApp --cli
 - backups/: Timestamped backup snapshots
 
 ## Troubleshooting
-- "java is not recognized": Install the JDK and ensure `java` and `javac` are on your PATH.
+- "java is not recognized": Install the JDK and ensure `java` and `javac` are on your Path.
 - Classes not found after editing code: Rebuild with `javac *.java` before running
 - Permission issues on save/load: Verify your user has write access to `data/` and `backups/`.
 - Corrupted data: Restore from a file in `backups/` by copying it into data/
